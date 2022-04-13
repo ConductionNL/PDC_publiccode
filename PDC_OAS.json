@@ -17,10 +17,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/Product"
                 },
                 "examples": {}
               }
@@ -378,28 +375,6 @@
         "in": "query"
       }
     },
-    "responses": {
-      "product": {
-        "description": "Example response",
-        "content": {
-          "application/json": {
-            "schema": {
-              "allOf": [
-                {
-                  "$ref": "#/components/schemas/Product"
-                }
-              ]
-            },
-            "examples": {}
-          },
-          "application/xml": {
-            "schema": {
-              "type": "object",
-              "properties": {}
-            }
-          }
-        }
-      }
-    }
+    "responses": {}
   }
 }
