@@ -19,11 +19,8 @@
                 "schema": {
                   "type": "object",
                   "properties": {
-                    "results": {
-                      "type": "array",
-                      "items": {
-                        "$ref": "#/components/schemas/Product"
-                      }
+                    "test": {
+                      "type": "string"
                     }
                   }
                 },
@@ -58,25 +55,13 @@
                       "appointment": {
                         "active": true
                       },
-                      "download": [
-                        null
-                      ],
-                      "faq": [
-                        null
-                      ],
-                      "forms": [
-                        null
-                      ],
-                      "image": [
-                        null
-                      ],
+                      "download": [null],
+                      "faq": [null],
+                      "forms": [null],
+                      "image": [null],
                       "language": "string",
-                      "links": [
-                        null
-                      ],
-                      "locations": [
-                        null
-                      ],
+                      "links": [null],
+                      "locations": [null],
                       "synonyms": "string",
                       "taxonomies": {
                         "pdc-doelgroep": [
@@ -93,15 +78,9 @@
                             "slug": "string"
                           }
                         ],
-                        "pdc-aspect": [
-                          null
-                        ],
-                        "pdc-usage": [
-                          null
-                        ],
-                        "pdc-owner": [
-                          null
-                        ]
+                        "pdc-aspect": [null],
+                        "pdc-usage": [null],
+                        "pdc-owner": [null]
                       },
                       "title-alternative": "string"
                     }
@@ -313,9 +292,7 @@
             "type": "string"
           }
         },
-        "required": [
-          "title"
-        ],
+        "required": ["title"],
         "description": "Product from the PDS API",
         "examples": [
           {
@@ -330,25 +307,13 @@
             "appointment": {
               "active": true
             },
-            "download": [
-              null
-            ],
-            "faq": [
-              null
-            ],
-            "forms": [
-              null
-            ],
-            "image": [
-              null
-            ],
+            "download": [null],
+            "faq": [null],
+            "forms": [null],
+            "image": [null],
             "language": "string",
-            "links": [
-              null
-            ],
-            "locations": [
-              null
-            ],
+            "links": [null],
+            "locations": [null],
             "synonyms": "string",
             "taxonomies": {
               "pdc-doelgroep": [
@@ -365,15 +330,9 @@
                   "slug": "string"
                 }
               ],
-              "pdc-aspect": [
-                null
-              ],
-              "pdc-usage": [
-                null
-              ],
-              "pdc-owner": [
-                null
-              ]
+              "pdc-aspect": [null],
+              "pdc-usage": [null],
+              "pdc-owner": [null]
             },
             "title-alternative": "string"
           },
@@ -389,25 +348,13 @@
             "appointment": {
               "active": true
             },
-            "download": [
-              null
-            ],
-            "faq": [
-              null
-            ],
-            "forms": [
-              null
-            ],
-            "image": [
-              null
-            ],
+            "download": [null],
+            "faq": [null],
+            "forms": [null],
+            "image": [null],
             "language": "string",
-            "links": [
-              null
-            ],
-            "locations": [
-              null
-            ],
+            "links": [null],
+            "locations": [null],
             "synonyms": "string",
             "taxonomies": {
               "pdc-doelgroep": [
@@ -424,15 +371,9 @@
                   "slug": "string"
                 }
               ],
-              "pdc-aspect": [
-                null
-              ],
-              "pdc-usage": [
-                null
-              ],
-              "pdc-owner": [
-                null
-              ]
+              "pdc-aspect": [null],
+              "pdc-usage": [null],
+              "pdc-owner": [null]
             },
             "title-alternative": "string"
           }
