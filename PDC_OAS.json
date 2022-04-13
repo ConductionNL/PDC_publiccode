@@ -20,7 +20,69 @@
                 "schema": {
                   "$ref": "#/components/schemas/Product"
                 },
-                "examples": {}
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "id": "string",
+                      "title": "string",
+                      "slug": "string",
+                      "content": "string",
+                      "excerpt": "string",
+                      "date": "2019-08-24",
+                      "post_status": "string",
+                      "protected": true,
+                      "appointment": {
+                        "active": true
+                      },
+                      "download": [
+                        null
+                      ],
+                      "faq": [
+                        null
+                      ],
+                      "forms": [
+                        null
+                      ],
+                      "image": [
+                        null
+                      ],
+                      "language": "string",
+                      "links": [
+                        null
+                      ],
+                      "locations": [
+                        null
+                      ],
+                      "synonyms": "string",
+                      "taxonomies": {
+                        "pdc-doelgroep": [
+                          {
+                            "id": 0,
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-type": [
+                          {
+                            "id": "string",
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-aspect": [
+                          null
+                        ],
+                        "pdc-usage": [
+                          null
+                        ],
+                        "pdc-owner": [
+                          null
+                        ]
+                      },
+                      "title-alternative": "string"
+                    }
+                  }
+                }
               }
             }
           }
@@ -37,7 +99,69 @@
                 "schema": {
                   "$ref": "#/components/schemas/Product"
                 },
-                "examples": {}
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "id": "string",
+                      "title": "string",
+                      "slug": "string",
+                      "content": "string",
+                      "excerpt": "string",
+                      "date": "2019-08-24",
+                      "post_status": "string",
+                      "protected": true,
+                      "appointment": {
+                        "active": true
+                      },
+                      "download": [
+                        null
+                      ],
+                      "faq": [
+                        null
+                      ],
+                      "forms": [
+                        null
+                      ],
+                      "image": [
+                        null
+                      ],
+                      "language": "string",
+                      "links": [
+                        null
+                      ],
+                      "locations": [
+                        null
+                      ],
+                      "synonyms": "string",
+                      "taxonomies": {
+                        "pdc-doelgroep": [
+                          {
+                            "id": 0,
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-type": [
+                          {
+                            "id": "string",
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-aspect": [
+                          null
+                        ],
+                        "pdc-usage": [
+                          null
+                        ],
+                        "pdc-owner": [
+                          null
+                        ]
+                      },
+                      "title-alternative": "string"
+                    }
+                  }
+                }
               }
             }
           }
@@ -80,7 +204,69 @@
                 "schema": {
                   "$ref": "#/components/schemas/Product"
                 },
-                "examples": {}
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "id": "string",
+                      "title": "string",
+                      "slug": "string",
+                      "content": "string",
+                      "excerpt": "string",
+                      "date": "2019-08-24",
+                      "post_status": "string",
+                      "protected": true,
+                      "appointment": {
+                        "active": true
+                      },
+                      "download": [
+                        null
+                      ],
+                      "faq": [
+                        null
+                      ],
+                      "forms": [
+                        null
+                      ],
+                      "image": [
+                        null
+                      ],
+                      "language": "string",
+                      "links": [
+                        null
+                      ],
+                      "locations": [
+                        null
+                      ],
+                      "synonyms": "string",
+                      "taxonomies": {
+                        "pdc-doelgroep": [
+                          {
+                            "id": 0,
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-type": [
+                          {
+                            "id": "string",
+                            "name": "string",
+                            "slug": "string"
+                          }
+                        ],
+                        "pdc-aspect": [
+                          null
+                        ],
+                        "pdc-usage": [
+                          null
+                        ],
+                        "pdc-owner": [
+                          null
+                        ]
+                      },
+                      "title-alternative": "string"
+                    }
+                  }
+                }
               }
             }
           }
