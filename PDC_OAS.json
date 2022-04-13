@@ -4,6 +4,7 @@
     "title": "PDC",
     "version": "1.0"
   },
+  "servers": [],
   "paths": {
     "/products": {
       "get": {
@@ -17,7 +18,15 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "type": "object",
+                  "properties": {
+                    "results": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Product"
+                      }
+                    }
+                  }
                 },
                 "examples": {
                   "example": {
@@ -33,25 +42,13 @@
                       "appointment": {
                         "active": true
                       },
-                      "download": [
-                        null
-                      ],
-                      "faq": [
-                        null
-                      ],
-                      "forms": [
-                        null
-                      ],
-                      "image": [
-                        null
-                      ],
+                      "download": [null],
+                      "faq": [null],
+                      "forms": [null],
+                      "image": [null],
                       "language": "string",
-                      "links": [
-                        null
-                      ],
-                      "locations": [
-                        null
-                      ],
+                      "links": [null],
+                      "locations": [null],
                       "synonyms": "string",
                       "taxonomies": {
                         "pdc-doelgroep": [
@@ -68,17 +65,99 @@
                             "slug": "string"
                           }
                         ],
-                        "pdc-aspect": [
-                          null
-                        ],
-                        "pdc-usage": [
-                          null
-                        ],
-                        "pdc-owner": [
-                          null
-                        ]
+                        "pdc-aspect": [null],
+                        "pdc-usage": [null],
+                        "pdc-owner": [null]
                       },
                       "title-alternative": "string"
+                    }
+                  },
+                  "example-results": {
+                    "value": {
+                      "results": [
+                        {
+                          "id": "string",
+                          "title": "string",
+                          "slug": "string",
+                          "content": "string",
+                          "excerpt": "string",
+                          "date": "2019-08-24",
+                          "post_status": "string",
+                          "protected": true,
+                          "appointment": {
+                            "active": true
+                          },
+                          "download": [null],
+                          "faq": [null],
+                          "forms": [null],
+                          "image": [null],
+                          "language": "string",
+                          "links": [null],
+                          "locations": [null],
+                          "synonyms": "string",
+                          "taxonomies": {
+                            "pdc-doelgroep": [
+                              {
+                                "id": 0,
+                                "name": "string",
+                                "slug": "string"
+                              }
+                            ],
+                            "pdc-type": [
+                              {
+                                "id": "string",
+                                "name": "string",
+                                "slug": "string"
+                              }
+                            ],
+                            "pdc-aspect": [null],
+                            "pdc-usage": [null],
+                            "pdc-owner": [null]
+                          },
+                          "title-alternative": "string"
+                        },
+                        {
+                          "id": "string",
+                          "title": "string",
+                          "slug": "string",
+                          "content": "string",
+                          "excerpt": "string",
+                          "date": "2019-08-24",
+                          "post_status": "string",
+                          "protected": true,
+                          "appointment": {
+                            "active": true
+                          },
+                          "download": [null],
+                          "faq": [null],
+                          "forms": [null],
+                          "image": [null],
+                          "language": "string",
+                          "links": [null],
+                          "locations": [null],
+                          "synonyms": "string",
+                          "taxonomies": {
+                            "pdc-doelgroep": [
+                              {
+                                "id": 0,
+                                "name": "string",
+                                "slug": "string"
+                              }
+                            ],
+                            "pdc-type": [
+                              {
+                                "id": "string",
+                                "name": "string",
+                                "slug": "string"
+                              }
+                            ],
+                            "pdc-aspect": [null],
+                            "pdc-usage": [null],
+                            "pdc-owner": [null]
+                          },
+                          "title-alternative": "string"
+                        }
+                      ]
                     }
                   }
                 }
@@ -112,25 +191,13 @@
                       "appointment": {
                         "active": true
                       },
-                      "download": [
-                        null
-                      ],
-                      "faq": [
-                        null
-                      ],
-                      "forms": [
-                        null
-                      ],
-                      "image": [
-                        null
-                      ],
+                      "download": [null],
+                      "faq": [null],
+                      "forms": [null],
+                      "image": [null],
                       "language": "string",
-                      "links": [
-                        null
-                      ],
-                      "locations": [
-                        null
-                      ],
+                      "links": [null],
+                      "locations": [null],
                       "synonyms": "string",
                       "taxonomies": {
                         "pdc-doelgroep": [
@@ -147,15 +214,9 @@
                             "slug": "string"
                           }
                         ],
-                        "pdc-aspect": [
-                          null
-                        ],
-                        "pdc-usage": [
-                          null
-                        ],
-                        "pdc-owner": [
-                          null
-                        ]
+                        "pdc-aspect": [null],
+                        "pdc-usage": [null],
+                        "pdc-owner": [null]
                       },
                       "title-alternative": "string"
                     }
@@ -217,25 +278,13 @@
                       "appointment": {
                         "active": true
                       },
-                      "download": [
-                        null
-                      ],
-                      "faq": [
-                        null
-                      ],
-                      "forms": [
-                        null
-                      ],
-                      "image": [
-                        null
-                      ],
+                      "download": [null],
+                      "faq": [null],
+                      "forms": [null],
+                      "image": [null],
                       "language": "string",
-                      "links": [
-                        null
-                      ],
-                      "locations": [
-                        null
-                      ],
+                      "links": [null],
+                      "locations": [null],
                       "synonyms": "string",
                       "taxonomies": {
                         "pdc-doelgroep": [
@@ -252,15 +301,9 @@
                             "slug": "string"
                           }
                         ],
-                        "pdc-aspect": [
-                          null
-                        ],
-                        "pdc-usage": [
-                          null
-                        ],
-                        "pdc-owner": [
-                          null
-                        ]
+                        "pdc-aspect": [null],
+                        "pdc-usage": [null],
+                        "pdc-owner": [null]
                       },
                       "title-alternative": "string"
                     }
@@ -429,9 +472,7 @@
             "type": "string"
           }
         },
-        "required": [
-          "title"
-        ],
+        "required": ["title"],
         "description": "Product from the PDS API",
         "examples": [
           {
@@ -446,25 +487,13 @@
             "appointment": {
               "active": true
             },
-            "download": [
-              null
-            ],
-            "faq": [
-              null
-            ],
-            "forms": [
-              null
-            ],
-            "image": [
-              null
-            ],
+            "download": [null],
+            "faq": [null],
+            "forms": [null],
+            "image": [null],
             "language": "string",
-            "links": [
-              null
-            ],
-            "locations": [
-              null
-            ],
+            "links": [null],
+            "locations": [null],
             "synonyms": "string",
             "taxonomies": {
               "pdc-doelgroep": [
@@ -481,15 +510,9 @@
                   "slug": "string"
                 }
               ],
-              "pdc-aspect": [
-                null
-              ],
-              "pdc-usage": [
-                null
-              ],
-              "pdc-owner": [
-                null
-              ]
+              "pdc-aspect": [null],
+              "pdc-usage": [null],
+              "pdc-owner": [null]
             },
             "title-alternative": "string"
           },
@@ -505,25 +528,13 @@
             "appointment": {
               "active": true
             },
-            "download": [
-              null
-            ],
-            "faq": [
-              null
-            ],
-            "forms": [
-              null
-            ],
-            "image": [
-              null
-            ],
+            "download": [null],
+            "faq": [null],
+            "forms": [null],
+            "image": [null],
             "language": "string",
-            "links": [
-              null
-            ],
-            "locations": [
-              null
-            ],
+            "links": [null],
+            "locations": [null],
             "synonyms": "string",
             "taxonomies": {
               "pdc-doelgroep": [
@@ -540,15 +551,9 @@
                   "slug": "string"
                 }
               ],
-              "pdc-aspect": [
-                null
-              ],
-              "pdc-usage": [
-                null
-              ],
-              "pdc-owner": [
-                null
-              ]
+              "pdc-aspect": [null],
+              "pdc-usage": [null],
+              "pdc-owner": [null]
             },
             "title-alternative": "string"
           }
