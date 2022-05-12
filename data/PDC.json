@@ -1,4 +1,5 @@
 {
+    "openapi": "3.0.0",
     "collection": "https://raw.githubusercontent.com/ConductionNL/PDC_publiccode/main/PDC_OAS.json", 
     "schemas": {
         "Product": [
