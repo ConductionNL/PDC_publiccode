@@ -1,51 +1,93 @@
 {
-    "openapi": "3.0.0",
-    "collection": "https://raw.githubusercontent.com/ConductionNL/PDC_publiccode/main/PDC_OAS.json", 
-    "schemas": {
-        "Product": [
-            {
-               "properties": {
-                "id": 3401,
-                "title": "Hulp en advies",
-                "slug": "hulp-en-advies",
-                "content": "<h2>Rivierenland Werkt</h2>\n<p>Heeft u als werkgever in deze tijd teveel of juist te weinig personeel? Wij helpen u verder! Mensen die door de coronacrisis hun werk zijn verloren of dreigen te verliezen en werkgevers die vanwege corona vragen hebben over de inzet van personeel, kunnen terecht bij <a href=\"http://www.rivierenlandwerkt.nu/\">www.rivierenlandwerkt.nu</a>. VNO-NCW Rivierenland, FNV/CNV, Werkzaak Rivierenland, UWV, beroepsonderwijs en gemeenten in de regio Rivierenland werken intensief samen in een multi-disciplinair mobiliteitsteam. Het team begeleidt mensen zoveel mogelijk naar nieuw werk. Waar nodig wordt om- en bijscholing ingezet.</p>\n<h2>Hulp en advies voor ondernemers</h2>\n<p>Is uw bedrijf nog levensvatbaar na de coronacrisis? Of kiest u misschien liever voor een baan in loondienst? Of beide? We bieden ondersteuning bij het versterken van uw onderneming en geven advies over regelingen en bij betalingsachterstanden. We kunnen u ook begeleiden naar (tijdelijk) ander werk. Bel 14 0344 of stuur een mail naar <a href=\"mailto:werkeninkomen@buren.nl\">werkeninkomen@buren.nl</a> voor een vrijblijvend gesprek.</p>\n",
-                "excerpt": "",
-                "date": "2022-03-15 16:45:42",
-                "post_status": "publish",
-                "protected": false,
-                "appointment": {
-                    "active": false
-                },
-                "downloads": [],
-                "faq": [],
-                "forms": [],
-                "image": [],
-                "language": "nl",
-                "links": [],
-                "locations": [],
-                "synonyms": "",
-                "taxonomies": {
-                    "pdc-doelgroep": [
-                        {
-                            "id": 6,
-                            "name": "Ondernemers",
-                            "slug": "ondernemers"
-                        }
-                    ],
-                    "pdc-type": [
-                        {
-                            "id": 15,
-                            "name": "Informatieproduct",
-                            "slug": "informatieproduct"
-                        }
-                    ],
-                    "pdc-aspect": [],
-                    "pdc-usage": [],
-                    "pdc-owner": []
-                },
-                "title_alternative": ""
-            }
-            }
-        ]
-    }
+  "collection": "https://raw.githubusercontent.com/ConductionNL/PDC_publiccode/main/PDC_OAS.json",
+  "schemas": {
+    "Product": [
+      {
+        "properties": {
+          "id": 3401,
+          "title": "Hulp en advies",
+          "slug": "hulp-en-advies",
+          "content": "<h2>Rivierenland Werkt</h2>\n<p>Heeft u als werkgever in deze tijd teveel of juist te weinig personeel? Wij helpen u verder! Mensen die door de coronacrisis hun werk zijn verloren of dreigen te verliezen en werkgevers die vanwege corona vragen hebben over de inzet van personeel, kunnen terecht bij <a href=\"http://www.rivierenlandwerkt.nu/\">www.rivierenlandwerkt.nu</a>. VNO-NCW Rivierenland, FNV/CNV, Werkzaak Rivierenland, UWV, beroepsonderwijs en gemeenten in de regio Rivierenland werken intensief samen in een multi-disciplinair mobiliteitsteam. Het team begeleidt mensen zoveel mogelijk naar nieuw werk. Waar nodig wordt om- en bijscholing ingezet.</p>\n<h2>Hulp en advies voor ondernemers</h2>\n<p>Is uw bedrijf nog levensvatbaar na de coronacrisis? Of kiest u misschien liever voor een baan in loondienst? Of beide? We bieden ondersteuning bij het versterken van uw onderneming en geven advies over regelingen en bij betalingsachterstanden. We kunnen u ook begeleiden naar (tijdelijk) ander werk. Bel 14 0344 of stuur een mail naar <a href=\"mailto:werkeninkomen@buren.nl\">werkeninkomen@buren.nl</a> voor een vrijblijvend gesprek.</p>\n",
+          "excerpt": "",
+          "date": "2022-03-15 16:45:42",
+          "post_status": "publish",
+          "protected": false,
+          "appointment": {
+            "active": false
+          },
+          "downloads": [],
+          "faq": [],
+          "forms": [],
+          "image": [],
+          "language": "nl",
+          "links": [],
+          "locations": [],
+          "synonyms": "",
+          "taxonomies": {
+            "pdc-doelgroep": [
+              {
+                "id": 6,
+                "name": "Ondernemers",
+                "slug": "ondernemers"
+              }
+            ],
+            "pdc-type": [
+              {
+                "id": 15,
+                "name": "Informatieproduct",
+                "slug": "informatieproduct"
+              }
+            ],
+            "pdc-aspect": [],
+            "pdc-usage": [],
+            "pdc-owner": []
+          },
+          "title_alternative": ""
+        }
+      },
+      {
+        "properties": {
+          "id": 165,
+          "title": "Leerplicht",
+          "slug": "leerplicht",
+          "content": "<p>Onderwijs is ontzettend belangrijk om in de maatschappij je plek te vinden. Met een goede opleiding en een diploma op zak sta je sterker. Daarom is de leerplicht, gevolgd door de kwalificatieplicht, vastgelegd in de wet.</p>\n<p>Voor alle informatie over de leerplicht verwijzen we u graag naar de meest recente informatie <a href=\"http://www.regiorivierenland.nl/wat-is-contractgestuurde-dienstverlening/wat-doet-regio-rivierenland-op-het-gebied-van-leerplicht\">op de website van Regio Rivierenland.</a></p>\n<p>Als je veel spijbelt, schakelt school de leerplichtambtenaar in. Die gaat samen met school, je ouders en jou op zoek naar een oplossing. De leerplichtambtenaar kan bijvoorbeeld Bureau Jeugdzorg om hulp vragen. Als je dan nog blijft spijbelen, kun je een Halt-straf krijgen. Ook kan het zijn dat je ouders een boete krijgen.</p>\n",
+          "excerpt": "",
+          "date": "2022-09-15 06:38:59",
+          "post_status": "publish",
+          "protected": false,
+          "appointment": {
+            "active": false
+          },
+          "downloads": [],
+          "faq": [],
+          "forms": [],
+          "image": [],
+          "language": "nl",
+          "links": [],
+          "locations": [],
+          "synonyms": "",
+          "taxonomies": {
+            "pdc-doelgroep": [
+              {
+                "id": 5,
+                "name": "Ouders",
+                "slug": "ouders"
+              }
+            ],
+            "pdc-type": [
+              {
+                "id": 15,
+                "name": "Informatieproduct",
+                "slug": "informatieproduct"
+              }
+            ],
+            "pdc-aspect": [],
+            "pdc-usage": [],
+            "pdc-owner": []
+          },
+          "title_alternative": ""
+        }
+      }
+    ]
+  }
 }
