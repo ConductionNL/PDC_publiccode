@@ -1,4 +1,5 @@
 {
+  "openapi": "3.0.0",
   "collection": "https://raw.githubusercontent.com/ConductionNL/PDC_publiccode/main/PDC_OAS.json",
   "schemas": {
     "Product": [
@@ -72,6 +73,92 @@
                 "id": 5,
                 "name": "Ouders",
                 "slug": "ouders"
+              }
+            ],
+            "pdc-type": [
+              {
+                "id": 15,
+                "name": "Informatieproduct",
+                "slug": "informatieproduct"
+              }
+            ],
+            "pdc-aspect": [],
+            "pdc-usage": [],
+            "pdc-owner": []
+          },
+          "title_alternative": ""
+        }
+      },
+      {
+        "properties": {
+          "id": 9586,
+          "title": "Bouwen, verbouwen en slopen",
+          "slug": "bouwen-verbouwen-en-slopen",
+          "content": "<p>Gaat u bouwen, verbouwen of iets slopen? Dan moet u misschien een omgevingsvergunning aanvragen. Op de website van de <a href=\"https://www.odrivierenland.nl/vind-informatie-over/bouwen-en-slopen/\">Omgevingsdienst Rivierenland</a> (ODR) leest u hoe u dit kunt doen.</p>\n<h2>Wel of geen vergunning nodig?</h2>\n<p>U heeft niet altijd een vergunning  nodig voor bouwactiviteiten.  Dit kunt u controleren door de vergunningcheck op het <a href=\"https://www.omgevingsloket.nl/\"> Omgevingsloket</a>in te vullen. U voert daar uw bouwlocatie en -werkzaamheden in en ziet vervolgens of u wel of niet een vergunning nodig heeft of dat u de activiteiten alleen moet melden.</p>\n<p>Het aanvragen van een vergunning kost leges. De bedragen vindt u in<a href=\"https://www.buren.nl/onderwerp/legesverordening-en-tarieven\"> de legesverordening.</a></p>\n",
+          "excerpt": "",
+          "date": "2021-12-05 02:02:02",
+          "post_status": "publish",
+          "protected": false,
+          "appointment": {
+            "active": false
+          },
+          "downloads": [],
+          "faq": [],
+          "forms": [],
+          "image": [],
+          "language": "nl",
+          "links": [],
+          "locations": [],
+          "synonyms": "",
+          "taxonomies": {
+            "pdc-doelgroep": [
+              {
+                "id": 6,
+                "name": "Ondernemers",
+                "slug": "ondernemers"
+              }
+            ],
+            "pdc-type": [
+              {
+                "id": 15,
+                "name": "Informatieproduct",
+                "slug": "informatieproduct"
+              }
+            ],
+            "pdc-aspect": [],
+            "pdc-usage": [],
+            "pdc-owner": []
+          },
+          "title_alternative": ""
+        }
+      },
+      {
+        "properties": {
+          "id": 9586,
+          "title": "Asbest verwijderen",
+          "slug": "asbest-verwijderen",
+          "content": "<p>Asbest werd vroeger veel gebruikt als bouwmateriaal. Sinds 1994 is het verboden asbest te gebruiken. Als asbest breekt, verbrandt of afbrokkelt, komen kankerverwekkende stoffen vrij. Daarom moet u zich houden aan strenge regels als u asbest wilt verwijderen.</p>\n<p>Als er asbest op uw dak ligt, dan bent u zelf verantwoordelijk voor het verwijderen daarvan. Meer informatie hierover leest u op de website van de<a href=\"https://www.odrivierenland.nl/vind-informatie-over/asbest/\">Omgevingsdienst Rivierenland</a>(ODR).</p>\n",
+          "excerpt": "",
+          "date": "2020-07-24 07:39:29",
+          "post_status": "publish",
+          "protected": false,
+          "appointment": {
+            "active": false
+          },
+          "downloads": [],
+          "faq": [],
+          "forms": [],
+          "image": [],
+          "language": "nl",
+          "links": [],
+          "locations": [],
+          "synonyms": "",
+          "taxonomies": {
+            "pdc-doelgroep": [
+              {
+                "id": 4,
+                "name": "Bewoners",
+                "slug": "bewoners"
               }
             ],
             "pdc-type": [
